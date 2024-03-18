@@ -15,4 +15,4 @@ http://localhost:4004/playground
 
 # media
 
-<img width="1326" alt="hello" src="https://github.com/ValeriyKliuk/products/assets/750868/477a9170-92d1-435a-b625-8d972bd58b53">
+<img width="1382" alt="products" src="https://github.com/ValeriyKliuk/products/assets/750868/25350a2d-7317-400d-b840-5f4f74d52c6e">
