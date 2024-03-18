@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 	runApplication<ProductsApplication>(*args) {
 		addInitializers(beans {
 			bean<RootQuery>()
+			bean<ScalarSchemaGeneratorHooks>()
 		})
 	}
 }

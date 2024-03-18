@@ -18,7 +18,8 @@
       "quantity": 11,
       "shipping": "freeWorldWide",
       "imageName": "Carrier",
-      "bigImageName": "Carrier_Big"
+      "bigImageName": "Carrier_Big",
+      "storeID": 321
     },
     {
       "productID": 222,
@@ -39,7 +40,8 @@
       "quantity": 15,
       "shipping": "freeWorldWide",
       "imageName": "Urbanito",
-      "bigImageName": "Urbanito_Big"
+      "bigImageName": "Urbanito_Big",
+      "storeID": 321
     },
     {
       "productID": 333,
@@ -58,7 +60,16 @@
       "quantity": 0,
       "shipping": "freeWorldWide",
       "imageName": "Travol",
-      "bigImageName": "Travol_Big"
+      "bigImageName": "Travol_Big",
+      "storeID": 321
+    }
+  ],
+  "stores": [
+    {
+      "id": 321,
+      "name": "Winners",
+      "open": "2024-03-18T09:00:00",
+      "close": "2024-03-18T21:00:00"
     }
   ]
 }
