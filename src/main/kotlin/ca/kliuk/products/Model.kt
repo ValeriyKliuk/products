@@ -22,9 +22,9 @@ class Product(
     val shipping: String,
     val imageName: String,
     val bigImageName: String,
-    val storeID: Int
+    private val storeIds: List<Int>
 ) {
-    fun store(): Store = jsonData.stores.single { it.id == storeID}
+    fun stores() = jsonData.stores.filter { storeIds.contains(it.id) }
 }
 
 @Serializable
